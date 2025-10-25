@@ -12,7 +12,7 @@ const tradeSchema = new mongoose.Schema({
     required: true,
   },
   time: {
-    type: Number,
+    type: String,
     required: true,
   },
   investment: {
