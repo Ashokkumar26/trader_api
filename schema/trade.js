@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const tradeSchema = new mongoose.Schema({
   investorName: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   date: {
     type: String,
